@@ -1,7 +1,6 @@
 .style {
     color: whitesmoke;
     text-align: center;
-    padding-top: 130px;
 }
 
 .content {
@@ -43,10 +42,9 @@ a:hover {
 .backgroundBox {
    background-color: #000000;
    border: 1px solid whitesmoke;
-   height: 665px;
+   height: 675px;
    width: 500px;
-   position: absolute;
-   left: 708px;
-   top: 150px;
+   margin: auto;
+   margin-top: 20px;
    z-index: -1;
 }
