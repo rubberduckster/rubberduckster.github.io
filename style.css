@@ -1,0 +1,22 @@
+.style {
+    color: whitesmoke;
+    text-align: center;
+}
+
+a {
+    color: #4e3bf7;
+}
+
+.content {
+    margin: auto;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+}
+
+.menu {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
