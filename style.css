@@ -1,6 +1,7 @@
 .style {
     color: whitesmoke;
     text-align: center;
+    padding-top: 130px;
 }
 
 .content {
@@ -12,19 +13,40 @@
     text-align: justify;
 }
 .content a {
-    color: #7e9ff8;
+    color: #01c201;
 }
 
 .menu {
-    margin-top: 35px;
-    margin-bottom: 10px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    padding-left: 25px;
 }
 
 .menu a {
-    color: #7e9ff8;
+    color: whitesmoke;
     text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    padding: 3px 3px;
+    background-color: #282a33;
+}
+
+.menu span {
+    font-weight: bolder;
+    font-size: 25px;
 }
 
 a:hover {
     color: #a282ee;
+}
+
+.backgroundBox {
+   background-color: #000000;
+   border: 1px solid whitesmoke;
+   height: 665px;
+   width: 500px;
+   position: absolute;
+   left: 708px;
+   top: 150px;
+   z-index: -1;
 }
