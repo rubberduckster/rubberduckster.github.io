@@ -85,6 +85,11 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     #coolDuck {
-        left: 65%
+        left: 100%;
+        transform: translateX(-85%);
+    }
+
+    #coolDuck:hover {
+        transform: scaleX(-1) translateX(85%);
     }
 }
