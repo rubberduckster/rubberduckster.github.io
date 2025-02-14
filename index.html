@@ -7,7 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>function playDuck() {
-            document.getElementById('duckSong').play();
+            var mySong = document.getElementById('duckSong');
+
+            if (mySong.paused) {
+                mySong.play();
+            }
+            else {
+                mySong.pause();
+            }
         }</script>
 </head>
 <style>
