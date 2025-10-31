@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>function playDuck() {
+        var mySong = document.getElementById('duckSong');
+
+        if (mySong.paused) {
+            mySong.play();
+        }
+        else {
+            mySong.pause();
+        }
+    }</script>
+</head>
+<style>
+    body {
+        background-image: url('Binary-numbers.jpg');
+    }
+</style>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="gradient"></div>
+        <div class="backgroundBox">
+            <div class="style">
+                <div>
+                    <h1 style="text-decoration-line: underline;">Rubberducky</h1>
+                    <p style="margin-top: -24px; padding-left: 135px;">Portfolio</p>
+                </div>
+                <div class="menu">
+                    <a href="CV.html">CV</a> <span>|</span> <a href="index.html">Projects</a>
+                </div>
+                <div class="content">
+                    <p style="text-align: center; margin-top: 5px; text-decoration: underline;">CV</p>
+                    <p style="font-weight: bold;">Intro</p>
+                    <p>My name is Ruby and I'm a 23 year old student at TEC, studying programming.<br>I started on the programming line on TEC in January 2025</p>
+                    <p>I've previously been studying graphical design and 3D animation, and I love to be creative.</p>
+                    <p style="font-weight: bold;">Coding languages I've worked with includes: </p>
+                    <p>HTML ✦ CSS ✦ Javascript<br>C# ✦ ASP.NET ✦ WPF<br>MySQL ✦ MSSQL</p>
+                </div>
+                <div>
+                    <p>My socials: </p>
+                    <a href="https://github.com/rubberduckster" target="_blank"><img src="Github-icon.svg"
+                            height="25px" width="25px" style="padding-right: 5px;"></a>
+                    <a href="mailto:mcrubygirl@hotmail.com" target="_blank"><img src="Email-icon.svg" height="25px"
+                            width="25px"></a>
+                </div>
+            </div>
+            <audio src="TheDuckSong.mp3" id="duckSong"></audio>
+            <img src="CoolDuck.png" id="coolDuck" onClick="playDuck()">
+        </div>
+    <div>
+    </div>
+
+</body>
+
+</html>
