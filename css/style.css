@@ -73,6 +73,8 @@ body {
     border-radius: 5px;
     overflow: hidden;
     filter: drop-shadow(-12px 10px #e4865b);
+    margin-left: 14px;
+    margin-right: 2px;
 }
 
 .profileImageContainer img {
@@ -88,7 +90,6 @@ body {
 }
 
 .line {
-    position: absolute;
     width: 390px;
     border-top: 2px dotted;
 }
@@ -96,42 +97,33 @@ body {
 /* EXACT placement from screenshot */
 .left-line {
     border-color: #e4865b;
-    top: 72%;
-    right: 310px;
 }
 
 .right-line {
     border-color: #8fccff;
-    top: 32%;
-    left: 310px;
 }
 
 /* TEXT ON LINES — exact screenshot positioning */
 .right-line-text {
-    position: absolute;
+    text-align: right;
+    margin-right: 1rem;
     color: #8fccff;
     font-family: monospace;
     white-space: nowrap;
-    top: 22%;
-    left: 165%;
 }
 
 .left-line-text {
-    position: absolute;
+    margin-left: 1rem;
     color: #e4865b;
     font-family: monospace;
     white-space: nowrap;
-    top: 53%;
-    right: 155%;
 }
 
 /* BUTTONS — placed EXACTLY where screenshot had them */
 .buttons {
-    position: absolute;
-    top: 67%;
-    left: 400px;
     display: flex;
     gap: 12px;
+    margin: 1rem;
 }
 
 .btn {
@@ -154,4 +146,29 @@ body {
 .btn img {
     width: 24px;
     height: 24px;
+}
+
+.front-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+
+.vcentered-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hcentered-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Breakpoint for making it look not shit on phone */
+@media (max-width: 1160px) {
+    .front-container {
+        flex-direction: column-reverse;
+    }
 }
