@@ -1,0 +1,24 @@
+.about-text-box {
+    margin: auto;
+    width: 80%;
+    margin-top: 130px;
+}
+
+.intro-text {
+    border: 2px solid #e4865b;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tech-text {
+    border: 2px solid #8fccff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Breakpoint for making it look not shit on phone */
+@media (max-width: 1160px) {
+    .about-text-box {
+        margin-top: 90px;
+    }
+}

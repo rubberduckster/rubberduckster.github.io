@@ -34,7 +34,8 @@ body {
 
 /* PROFILE LAYOUT */
 .profile {
-    margin-top: 160px; /* matches screenshot spacing */
+    margin-top: 130px;
+    margin-bottom: 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +95,6 @@ body {
     border-top: 2px dotted;
 }
 
-/* EXACT placement from screenshot */
 .left-line {
     border-color: #e4865b;
 }
@@ -103,7 +103,6 @@ body {
     border-color: #8fccff;
 }
 
-/* TEXT ON LINES — exact screenshot positioning */
 .right-line-text {
     text-align: right;
     margin-right: 1rem;
@@ -119,7 +118,6 @@ body {
     white-space: nowrap;
 }
 
-/* BUTTONS — placed EXACTLY where screenshot had them */
 .buttons {
     display: flex;
     gap: 12px;
@@ -170,5 +168,15 @@ body {
 @media (max-width: 1160px) {
     .front-container {
         flex-direction: column-reverse;
+    }
+
+    .top-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .profile {
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 }
