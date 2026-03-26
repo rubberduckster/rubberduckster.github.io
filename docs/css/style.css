@@ -15,6 +15,7 @@ body {
     justify-content: space-between;
     padding: 15px 25px;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .nav-links {
@@ -57,8 +58,13 @@ body {
     margin-top: 35px;
 }
 
-.attr { color: #8fccff; }
-.value { color: #e4865b; }
+.attr { 
+    color: #8fccff;
+}
+
+.value {
+    color: #e4865b;
+}
 
 /* CENTER BLOCK */
 .center-block {
@@ -173,10 +179,11 @@ body {
     .top-nav {
         flex-direction: column;
         gap: 15px;
+        margin-bottom: 40px;
     }
 
     .profile {
-        margin-top: 80px;
         margin-bottom: 80px;
+        margin-top: 55px;
     }
 }
